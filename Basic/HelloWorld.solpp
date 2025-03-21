@@ -1,0 +1,15 @@
+// HelloWorld.solpp
+contract HelloWorld {
+    // State variable to store the greeting message
+    string message = "Hello, World!";
+    
+    // Function to retrieve the current greeting message
+    public view string getMessage() {
+        return message;
+    }
+
+    // Function to update the greeting message
+    public void setMessage(string newMessage) {
+        message = newMessage;
+    }
+}
